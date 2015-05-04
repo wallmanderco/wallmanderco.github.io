@@ -1,0 +1,17 @@
+# Build settings
+gems:
+  - jekyll-sitemap
+
+sass:
+  style: :compressed
+  sass_dir: "styles"
+
+timezone: Europe/Stockholm
+exclude: [Gemfile, Gemfile.lock, README.md]
+
+# Site settings
+title: Wallmander & Co on Github
+email: mikael@wallmander.se
+description: Plugins and other stuff by Wallmander & Co
+baseUrl: "/"
+url: "https://wallmanderco.github.io"
