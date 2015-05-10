@@ -1,6 +1,19 @@
 ---
 layout: default
+bodyclass: plugin-docs
 ---
-<main class="plugin-page-wrapper">
-{{content}}
+
+<main>
+    <header class="site-header">
+        <div class="wrapper">
+            <h1>{{page.title}}</h1>
+
+            <p><a href="../">« Back</a></p>
+        </div>
+    </header>
+    <div class="wrapper">
+        <div class="docs-content">
+            {{content}}
+        </div>
+    </div>
 </main>

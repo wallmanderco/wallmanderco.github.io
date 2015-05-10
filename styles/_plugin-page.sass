@@ -1,8 +1,9 @@
-.plugin-page-wrapper
-    width: 800px
-    max-width: 100%
-    margin: 0 auto
-    text-align: center
+body.plugin-home,
+body.plugin-docs
+    .wrapper
+        width: 800px
+        max-width: 100%
+        margin: 0 auto
     header
         text-align: center
         padding: 60px 15px
@@ -10,5 +11,52 @@
             font-style: italic
             font-size: 1.3em
             line-height: 1.4
-    .fa
-        display: block
+    nav
+        text-align: center
+        a
+            display: inline-block
+            vertical-align: top
+            width: 110px
+        .fa
+            display: block
+        .fa-wordpress
+            font-size: 3.429em
+            margin: 0.08em 0
+
+body.plugin-docs
+    background: #f0f1f2
+    .site-header
+        background: #fff
+        border-bottom: 1px solid #dbdcdb
+
+.docs-content
+    text-align: left
+    padding: 0 0 30px
+    margin-top: 30px
+    font-size: 14.5px
+    line-height: 1.65
+    background: #fff
+    border: 1px solid #dbdcdb
+    border-top: none
+    margin-bottom: 90px
+    p
+        padding: 0 30px
+    h2
+        font-family: 'Source Sans Pro', sans-serif
+        margin: 30px 0 0.83em
+        padding: 30px 30px 0
+        border-top: 1px solid #dbdcdb
+    a
+        color: darken(#acd3f1, 10%)
+        text-decoration: underline
+    a:hover
+        color: darken(#acd3f1, 20%)
+    code
+        font-size: .8em
+        color: #c7254e
+        background-color: #f9f2f4
+    blockquote
+        margin: 0 30px 10px
+        font-size: 1em
+        p
+            padding: 0
