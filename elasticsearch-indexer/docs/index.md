@@ -17,6 +17,8 @@ Download and install [the plugin](https://wordpress.org/plugins/elasticsearch-in
 After you have activated the plugin, you will have to reindex the posts from the admin panel.
 As long as the plugin is active, the index will sync automatically to changes.
 
+Once you have indexed, Elasticsearch Indexer will automatically integrate WP_Query with Elasticsearch.
+
 Reindex whenever you update the plugin.
 
 ## Troubleshooting
